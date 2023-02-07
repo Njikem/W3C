@@ -1,0 +1,38 @@
+* body {
+    display: grid;
+}
+#page_header {
+    display: grid;
+    min-height: 10vh;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_main {
+    display: grid;
+    min-height: 80vh;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns:(auto-fit,minmax(250, 1fr))
+}
+.fab {
+    display: grid;
+}
+.Afric {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.p-text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_footer {
+    display: grid;
+    min-height: 10vh;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
